@@ -1,3 +1,4 @@
+# MogoDB self-learning[^1]
 - NoSQL
 - database hướng tài liệu (document), các dữ liệu được lưu trữ trong document kiểu JSON thay vì dạng bảng như CSDL quan hệ nên truy vấn sẽ rất nhanh
 - So với RDBMS thì trong MongoDB collection ứng với table, còn document sẽ ứng với row
@@ -14,4 +15,4 @@ Xóa bản ghi | DELETE FROM students Where id = 1; | db.students.remove({ _id: 
 Tìm kiếm all | SELECT * FROM students; | db.students.find({}); | 
 Tìm kiếm | SELECT * FROM students WHERE name = 'nguyen'; | db.students; | 
 
-https://www.youtube.com/watch?v=cPzNMpkQm2o
+[^1]: [Tự học MongoDB cho người mới bắt đầu 2023](https://www.youtube.com/watch?v=cPzNMpkQm2o)
